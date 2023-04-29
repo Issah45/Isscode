@@ -39,7 +39,7 @@ main_frame = Frame(root)
 main_frame.pack()
 
 # text box
-code = CodeEditor(main_frame, font="Consolas", language="html")
+code = CodeEditor(main_frame, font="Consolas", language="python")
 code.pack()
 
 # menu
